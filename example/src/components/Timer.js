@@ -6,7 +6,6 @@ export default function () {
     const [isTimer, setIsTimer] = useState(false)
 
     const handlerClick = () => setIsTimer(!isTimer)
-    console.log(timerIdRef.current)
 
     useEffect(() => {
        if (isTimer) {
